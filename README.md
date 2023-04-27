@@ -8,7 +8,7 @@ Write a Python program that reads a text file named numbers.txt that contains 20
 * The first text file will be named even.txt that will contains all even numbers extracted from the numbers.txt. 
 * The second text file will be named odd.txt that will contains all odd numbers extracted from the numbers.txt. 
 
-### The Main Code contains the following:
+## The Main Code contains the following:
 * Defines a function 
 * If-Else Statements
 * open() function

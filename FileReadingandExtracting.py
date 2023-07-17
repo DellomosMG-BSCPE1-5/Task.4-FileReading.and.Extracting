@@ -15,10 +15,9 @@ with open("numbers.txt") as main_file, open("even.txt", "a") as extracted_even_n
         if main_file_nums % 2 == 0:
             #THEN extract this number and append/write to even.txt file
             extracted_even_nums.write(str(main_file_nums) + "\n")
-            print(extracted_even_nums)
 
         #ELSE, if the line has odd number
         else:
             #THEN extract this number and append/write to odd.txt file
             extracted_odd_nums.write(str(main_file_nums) + "\n")
-            print(extracted_odd_nums)
+            
